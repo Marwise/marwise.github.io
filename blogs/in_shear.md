@@ -27,7 +27,7 @@ pair_coeff      * * lj/cut 1.0 1.0
 pair_modify     shift yes  
 pair_coeff      * * dpd/tstat 0.5
 
-bond_style      fene  
+<br>bond_style      fene  
 bond_coeff      * 30.0 1.5 1.0 1.0
   
 <br>#-------------------Neighbourlist-------------------  
