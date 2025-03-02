@@ -5,7 +5,6 @@ title: in_shear
 ---
 
 <br>#-----------------Basic variable-------------------
-
 <br>variable    Rcut        equal   2^(1.0/6.0)
 <br>variable    deltaT      equal   0.005
 <br>variable    ShearRate   equal   0.0001
@@ -14,7 +13,6 @@ title: in_shear
 <br>variable    Ntotal      equal   10000
 
 <br>#----------------Basic information------------------
-
 <br>units           lj
 <br>atom_style      bond
 <br>special_bonds   fene
@@ -24,7 +22,6 @@ title: in_shear
 <br>read_data       data.chain
   
 <br>#---------------------Force field------------------
-
 <br>pair_style      hybrid/overlay lj/cut \${Rcut} dpd/tstat 1.0 1.0 \${Rcut} 10086
 <br>pair_coeff      * * lj/cut 1.0 1.0
 <br>pair_modify     shift yes
@@ -38,7 +35,6 @@ title: in_shear
 <br>neigh_modify    delay 0 every 1 check yes
 
 <br>#--------------------Output-------------------------
-
 <br>fix 1 all nve
 <br>fix 2 all deform 1 xy erate \${ShearRate} units box remap v
 <br>fix 3 all ave/time 1 \${Nevery} \${Nstep} c_thermo_press file "Press.dat" mode vector format "%10.6f"
@@ -54,7 +50,6 @@ title: in_shear
 <br>thermo  \${Nstep}
 
 <br>#--------------------Other set-------------------------  
-
 <br>timestep    \${deltaT}
 <br>run         \${Ntoal}
   
