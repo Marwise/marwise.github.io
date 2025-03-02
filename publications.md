@@ -14,6 +14,6 @@ title: Publications
 
 [2] <u>Licheng Ma</u>，Yuyuan Lu*，Lijia An*. Non-linear Rheological Behavior of Entangled Polymer Liquids under Start-up Shear [C]，The CCS National Seminar on Polymer Academic Papers, September 2021 Beijing.<br>
 
-[1] <u>Licheng Ma</u>, Yuyuan Lu*, Lijia An*. Stress Overshoot of Entangled Polymer Liquids under Start-up Shear Flow [C], The 32nd CCS Congress, April 2021 Zhuhai Guangdong. <br>
+[1] <u>Licheng Ma</u>, Yuyuan Lu*, Lijia An*. Stress Overshoot of Entangled Polymer Liquids under Start-up Shear Flow [C], The 32nd CCS Congress, April 2021 Zhuhai Guangdong.<br>
 
 
