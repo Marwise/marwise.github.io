@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/in.shear/index.html
+permalink: /blogs/in_shear/index.html
 title: in_shear
 ---
 
