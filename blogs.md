@@ -19,8 +19,6 @@ title: Blogs
 
 ### Molecular Dynamics Simulation
 
-<!-- - [22岁，站在人生的交叉路口](https://caihanlin.com/blogs/22yrs)-->
-
 
 ### Monte Carlo Simulation
 
