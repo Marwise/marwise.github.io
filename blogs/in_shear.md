@@ -33,8 +33,7 @@ title: in_shear
 <br>bond_style      fene
 <br>bond_coeff      * 30.0 1.5 1.0 1.0
   
-> #-------------------Neighbourlist-------------------
-
+> \#-------------------Neighbourlist-------------------
 <br>neighbor        0.4 bin
 <br>neigh_modify    delay 0 every 1 check yes
 
