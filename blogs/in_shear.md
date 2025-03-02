@@ -10,46 +10,46 @@ variable    deltaT      equal   0.005
 variable    ShearRate   equal   0.0001  
 variable    Nstep       equal   1000  
 variable    Nevery      equal   50  
-variable    Ntotal      equal   10000  
-  
-#----------------Basic information------------------  
+variable    Ntotal      equal   10000<br>
+
+#----------------Basic information------------------
 units           lj  
 atom_style      bond  
 special_bonds   fene  
-comm_modify     vel yes  
-  
+comm_modify     vel yes<br>
+
 #---------------Set initial configuration----------  
-read_data       data.chain  
+read_data       data.chain<br>
   
 #---------------------Force field------------------  
 pair_style      hybrid/overlay lj/cut \${Rcut} dpd/tstat 1.0 1.0 \${Rcut} 10086  
 pair_coeff      * * lj/cut 1.0 1.0  
 pair_modify     shift yes  
-pair_coeff      * * dpd/tstat 0.5  
-  
+pair_coeff      * * dpd/tstat 0.5<br>
+
 bond_style      fene  
-bond_coeff      * 30.0 1.5 1.0 1.0  
+bond_coeff      * 30.0 1.5 1.0 1.0<br>
   
 #-------------------Neighbourlist-------------------  
 neighbor        0.4 bin  
-neigh_modify    delay 0 every 1 check yes  
+neigh_modify    delay 0 every 1 check yes<br>
   
 #--------------------Output-------------------------  
 fix 1 all nve  
 fix 2 all deform 1 xy erate \${ShearRate} units box remap v  
-fix 3 all ave/time 1 \${Nevery} \${Nstep} c_thermo_press file "Press.dat" mode vector format "%10.6f"  
-  
+fix 3 all ave/time 1 \${Nevery} \${Nstep} c_thermo_press file "Press.dat" mode vector format "%10.6f"<br>
+
 dump 1 all custom \${Nstep} dump.RE-POSITION_* id mol type xu yu zu  
-dump_modify 1 sort id format line "%7d %7d %7d %21.14f %21.14f %21.14f"  
-  
+dump_modify 1 sort id format line "%7d %7d %7d %21.14f %21.14f %21.14f"<br>
+
 dump 2 all custom \${Nstep} dump.VELOCITY_* id vx vy vz  
-dump_modify 2 sort id format line "%7d %21.14f %21.14f %21.14f"  
+dump_modify 2 sort id format line "%7d %21.14f %21.14f %21.14f"<br>
+
+restart \${Ntotal} poly.*.dat<br>
   
-restart \${Ntotal} poly.*.dat  
-  
-thermo  \${Nstep}  
-  
+thermo  \${Nstep}<br>
+
 #--------------------Other set-------------------------  
-timestep    \${deltaT}  
-run         \${Ntoal}  
+timestep    \${deltaT}<br>
+run         \${Ntoal}<br>
   
