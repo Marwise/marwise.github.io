@@ -33,3 +33,13 @@ Sept. 2017–Present  **Ph.D.** in Chemistry and Physics of Polymers, [School of
 Sept. 2013–Jul. 2017  **B.Sc.** in Chemistry, [College of Chemistry](https://chem.jlu.edu.cn/), [Jilin University (JLU)](https://www.jlu.edu.cn/)
 - Thesis: **Synthesis of Conjugated Porous Organic Polymer Nanoparticles Based on Pillararenes**
 - Specialization: Knowledge and experience in **organic synthesis** and **<sup>1</sup>H NMR analysis**
+
+---
+
+## Other Skills
+
+- Proficient in Polymer Physics and Polymer Rheology
+- Proficient in LAMMPS, VS Code, OVITO, Office, Origin and ChemBioOffice
+- Knowledge and experience in Bash Script, Linux system and server construction
+- Knowledge and experience in assisting supervisor in guiding graduate students
+- English: CET-6 & Mandarin: Native
