@@ -49,7 +49,7 @@ title: in_shear
   
 <br>thermo  \${Nstep}
 
-<br>#--------------------Other set-------------------------  
+<br>#--------------------Other set-------------------------
 <br>timestep    \${deltaT}
 <br>run         \${Ntoal}
   
