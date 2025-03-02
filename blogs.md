@@ -13,6 +13,7 @@ title: Blogs
 
 ### Linux Tips
 
+- [vimrc settings](https://marwise.github.io/blogs/vimrc)
 
 ### Modeling
 
