@@ -9,7 +9,7 @@ title: Blogs
 ### **L**arge-scale **A**tomic/**M**olecular **M**assively **P**arallel **S**imulator([LAMMPS](https://www.lammps.org/)) Scripts
 
 
-## Linux Tips
+### Linux Tips
 
 
 ### Modeling
