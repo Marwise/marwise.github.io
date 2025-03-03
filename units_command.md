@@ -13,6 +13,6 @@ title: units_command
 **LAMMPS uses the thermochemical calorie = 4.184 J.**
 
 
-<font color=Turquoise>style *lj*</font>
+<br><font color=Turquoise>style</font> *<font color=Turquoise>lj</font>*
 <br>For style *lj*, all quantities are unitless.
 <br>
