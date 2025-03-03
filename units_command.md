@@ -9,3 +9,9 @@ title: units_command
 <br>Synax
 #### units style
 - style = ***lj*** or ***real*** or ***si*** or ***cgs*** or ***electron*** or ***micro*** or ***nano***
+
+**LAMMPS uses the thermochemical calorie = 4.184 J.**
+
+${\color{Cyan}{style\ lj}}$
+<br>For style *lj*, all quantities are unitless.
+<br>
