@@ -6,3 +6,6 @@ title: units_command
 
 **[LAMMPS manual: units command](https://docs.lammps.org/units.html)**(*Reading The Fucking Manual, RTFM*)
 
+<br>Synax
+<br>>units style
+- style = ***lj*** or ***real*** or ***si*** or ***cgs*** or ***electron*** or ***micro*** or ***nano***
