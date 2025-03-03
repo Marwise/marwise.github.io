@@ -15,4 +15,4 @@ title: units_command
 
 <br><font color=Turquoise>style</font> *<font color=Turquoise>lj</font>*
 <br>For style *lj*, all quantities are unitless.
-<br>Without loss of generality, LAMMPS sets the fundamental quantities mass ***m***, distance ***$\sigma$***, energy ***$\epsilon$***, and Boltzmann constant ***k***<sub>**B**</sub> **=** **1**.
+<br>Without loss of generality, LAMMPS sets the fundamental quantities mass ***m***, distance $\sigma$, energy $\epsilon$, and Boltzmann constant ***k***<sub>**B**</sub> **=** **1**.
